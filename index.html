@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>String to MD5</title>
+    
+    <!-- Our styling for the page -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- MD5 hashing implementation, right from NPM! -->
+    <script src="transform.js"></script>
+</head>
+
+<body>
+    <div id="md5-container">
+        <div id="content">
+            <div class="card">
+                <p class="card-title">Enter anything</p>
+                <input id="md5-input" type="text" placeholder="The fox jumped" oninput="hash.transform()" />
+            </div>
+            <div id="output" class="card">
+                <p class="card-title">MD5 output</p>
+                <input id="md5-output" type="text" disabled />
+            </div>
+        </div>
+    </div>
+</body>

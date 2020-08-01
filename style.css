@@ -1,0 +1,41 @@
+html {
+    font-size: 2rem;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+#md5-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+#output {
+    background-color: #f0f0f0;
+}
+
+.card-title {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+input[type=text] {
+    font-size: 1rem;
+    text-indent: 5px;
+    border-radius: 6px;
+}
