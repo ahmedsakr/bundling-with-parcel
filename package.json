@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "http-server": "^0.12.3",
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   },
   "dependencies": {
     "md5": "^2.2.1"
